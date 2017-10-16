@@ -1,7 +1,8 @@
 export class AppSettings {
-    private static CURRENT_URL = "api/"; 
+    private static CURRENT_URL = "http://mdsitools.com/projectworkplace/api/"; 
     //public static CURRENT_URL = "https://x.azurewebsites.net/api/"; 
     //public static CURRENT_URL = "https://x.azurewebsites.net/api/"; 
+    
     public static GETAPIURL(controller:string):string{
         return this.CURRENT_URL+controller;
     }

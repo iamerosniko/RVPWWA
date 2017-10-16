@@ -8,6 +8,7 @@ import { CreateTitleModule } from './mod_create_title/create_title.module';
 import { InfoModule } from './com_info/info.module';
 import { WorkplaceModule } from './mod-workplace/workplace.module';
 import { WelcomeModule } from './mod-welcome/welcome.module';
+import { AdminModule } from './mod-admin/admin.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
     CreateTitleModule,
     InfoModule,
     WorkplaceModule,
-    WelcomeModule
+    WelcomeModule,AdminModule
+    
   ],
   declarations: [
     AppComponent,
