@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-md-12">
+        <ol class="breadcrumb" >
+            <li *ngFor="let bc of breadcrumbs">{{bc}}</li>
+        </ol>
+    </div>
+</div>
+
+<div class="text-center">
+    <!-- <app-video-player [srcString] ="path"></app-video-player> -->
+    <a [href]="path">click here to watch video</a>
+</div>
